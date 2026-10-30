@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#030712">
+    <title>Para Rebeca Zoe 💙</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="stage">
+
+        <canvas id="canvas"></canvas>
+
+        <div id="status">
+            Una sorpresa para Rebeca Zoe 💙
+        </div>
+
+        <!-- Pantalla inicial -->
+        <div class="overlay" id="start">
+            <div class="panel">
+                <h1>REBECA ZOE</h1>
+
+                <p>
+                    Preparé algo muy especial para ti.<br>
+                    Sube el volumen y mira hasta el final. 💙
+                </p>
+
+                <button id="startBtn">
+                    ABRIR SORPRESA
+                </button>
+
+                <p class="small">
+                    Activa el sonido para disfrutar la experiencia completa.
+                </p>
+            </div>
+        </div>
+
+        <!-- Carta -->
+        <div class="overlay" id="letter">
+            <div class="panel">
+
+                <h2>PARA MI NIÑA HERMOSA</h2>
+
+                <div class="message" id="message"></div>
+
+                <div class="center">
+                    <button id="counterBtn">
+                        NUESTRO TIEMPO 💙
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Contador -->
+        <div class="overlay" id="counter">
+            <div class="panel">
+
+                <h2>NUESTRO TIEMPO</h2>
+
+                <p>
+                    Juntos desde el 30 de abril de 2024 y contando...
+                </p>
+
+                <div class="grid">
+
+                    <div class="unit">
+                        <span class="num" id="years">0</span>
+                        <span class="lab">Años</span>
+                    </div>
+
+                    <div class="unit">
+                        <span class="num" id="months">0</span>
+                        <span class="lab">Meses</span>
+                    </div>
+
+                    <div class="unit">
+                        <span class="num" id="weeks">0</span>
+                        <span class="lab">Semanas</span>
+                    </div>
+
+                    <div class="unit">
+                        <span class="num" id="days">0</span>
+                        <span class="lab">Días</span>
+                    </div>
+
+                    <div class="unit">
+                        <span class="num" id="hours">0</span>
+                        <span class="lab">Horas</span>
+                    </div>
+
+                    <div class="unit">
+                        <span class="num" id="minutes">0</span>
+                        <span class="lab">Minutos</span>
+                    </div>
+
+                    <div class="unit">
+                        <span class="num" id="seconds">0</span>
+                        <span class="lab">Segundos</span>
+                    </div>
+
+                </div>
+
+                <p>
+                    Y todavía quiero compartir muchísimos momentos más a tu lado. 💙
+                </p>
+
+                <button id="backBtn">
+                    VOLVER A MI CARTA
+                </button>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Canción -->
+    <audio id="song" preload="auto">
+        <source src="alucinaciones.m4a" type="audio/mp4">
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
